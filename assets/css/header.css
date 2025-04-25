@@ -1,0 +1,195 @@
+
+@import url(/css/common.css);
+
+/* SECTION: HEADER */
+
+.header{
+    z-index: 100;
+    position: fixed;
+    background-color: var(--white-UIColor);
+    height: 70px;
+    width: 100%;
+    display: none;
+    align-items: center;
+    margin-top: 10px;
+    right: 0;
+    left: 0;
+    transform: translateY(-78px);
+    transition: transform 0.5s ease;
+    cursor: pointer;
+}
+
+/* Header: logo */
+.header .logo{
+    height: 70%;
+}
+
+.header .logo img {
+    height: 100%;
+    border-radius: 50%; 
+}
+
+/* Header: search-bar */
+.header .search{
+    height: 60%;
+    margin-left: 10px;
+}
+
+.header .search input{
+    padding-left: 20px;
+    height: 100%;
+    width: 200px;
+    border-radius: 80px;
+    border: 1px solid var(--mainColor-UIColor);
+    outline: none;
+}
+
+.header .search input:focus{
+    border: 1px solid var(--mainDarkColor-UIColor);
+}
+
+.header .search-mobile{
+    font-size: 30px;
+    display: none;
+}
+
+/* Header: navigation */
+.header .navigation {
+    margin-bottom: 0;
+    display: inline-flex;
+    list-style: none;
+}
+
+.header .navigation-mobile{
+    height: 70px;
+    padding: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    color: var(--mainColor-textColor);
+    font-weight: bolder;
+    font-size: 20px;
+    position: relative;
+}
+
+.header .navigation-mobile:hover{
+    color: var(--mainBlack-textColor);
+}
+
+.header .navigation-mobile:hover .sub-navigation-mobile{
+    display: block;
+}
+
+.header .navigation-mobile .sub-navigation-mobile{
+    position: absolute;
+    top: 64px;
+    display: none;
+}
+
+
+.header .navigation-mobile li{
+    padding: 18px 20px;    
+    width: 150px;
+    border-bottom: 1px solid #000;
+    background-color: var(--mainColor-UIColor);
+}
+
+.header .navigation-mobile li:hover{
+    background-color: var(--mainDarkColor-UIColor);
+}
+
+
+.header .navigation-mobile li:last-child{
+    border-bottom: 0px solid #000 !important;
+}
+
+
+.header .navigation-mobile a{
+    color: #000;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+.header .navigation li a{
+    color: var(--mainBlack-textColor);
+    text-decoration: none;
+    padding: 0 20px 0 20px;
+}
+
+/* Header: authority */
+.header .authority{
+    margin-bottom: 0;
+    display: inline-flex;
+    list-style: none;
+    padding-left: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.header .authority .register{
+    padding: 11px 21px 11px 21px;
+    border: 1px solid var(--mainColor-UIColor);
+    color: var(--mainColor-textColor);
+}
+
+.header .authority .login{
+    padding: 11px 21px 11px 21px;
+    margin-left: 10px;
+    background-color: var(--mainColor-UIColor);
+    color: var(--unchanged-white-textColor);
+}
+
+/* Header: toggle */
+.header .toggle{
+    background-color: var(--mainColor-UIColor);
+    position: absolute;
+    font-size: 30px;
+    padding: 0 8px;
+    line-height: 10px;
+    border-radius: 10px;
+    top: 61px;
+    left: -10px;
+    transition: transform 0.5s ease;
+
+}
+
+.header .toggle:hover{
+    background-color: var(--mainDarkColor-UIColor);
+}
+
+
+/* Header: account */
+.header .account{
+    height: 70%;
+    position: relative;
+}
+
+.header .account img {
+    height: 100%;
+    border-radius: 50%; 
+}
+
+/* Header: user-menu */
+.header .user-menu{
+    background-color: red;
+    width: 360px;
+    height: 100px;
+    position: absolute;
+    right: 0;
+    display: none;
+}
+
+.header .account .avatar{
+    cursor: pointer;
+}
+
+.header .account .avatar img{
+    height: 49px;
+    width: 49px;
+}
+
+.header .account #toggle-user-menu:checked ~ .user-menu{
+    display: block;
+}
+

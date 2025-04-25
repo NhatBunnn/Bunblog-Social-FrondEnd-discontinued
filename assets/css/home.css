@@ -1,0 +1,117 @@
+@import url(/css/common.css);
+
+/* SECTION: SLIDER */
+
+.slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.slider .banner{
+    background-color: #AFB42B;
+    width: 100%;
+    padding-bottom: 738px;
+    border-radius: 0 0 20px 20px;
+    background-image: url(https://preview.redd.it/3840x2160-japanese-city-at-night-v0-uno3xcgnnok91.jpg?auto=webp&s=7b0a476d7929425c5f0c42e786a2710d2731dd41);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex   ;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.slider .slider-content{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--unchanged-white-textColor);
+
+}
+
+.slider .slider-content .video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+}
+
+.slider .video-container iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+}
+
+.slider .slider-content .button{
+    padding: 16px 20px;
+    background-color: var(--mainColor-UIColor);
+    display: inline-block;
+    cursor: pointer;
+}
+
+.slider .slider-content .button:hover{
+    background-color: var(--mainDarkColor-UIColor);
+}
+
+.slider .explore-btn .button{
+    padding: 16px 20px;
+    background-color: var(--mainColor-UIColor);
+    color: var(--white-textColor);
+    display: inline-block;
+    cursor: pointer;
+    margin-top: 20px;
+    position: absolute;
+    bottom: -22px;
+}
+
+/* SECTION: CREATE-PAGE-MODEL */
+.create-page-model{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.431);
+    z-index: 1000;
+    display: none;
+}
+
+.create-page-model .create-page-container{
+    position: absolute;
+    background-color: var(--unchanged-white-textColor);
+    width: 500px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.create-page-model .close-btn{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: red;
+    padding: 3px;
+    cursor: pointer;
+}
+
+/* SECTION: LIST USERS */
+.list-users-card{
+    font-size: 16px;
+}
+
+.list-users-card .user-card{
+    background: url(/image/avatar/avatar.jpg) no-repeat center center;
+    background-size: cover;
+    height: 80px;
+    
+}
+
+.list-users-card .avatar{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    border: 2px solid var(--mainColor-UIColor);
+}

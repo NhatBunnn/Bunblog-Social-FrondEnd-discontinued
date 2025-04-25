@@ -1,0 +1,62 @@
+<link rel="stylesheet" href="/css/header.css">
+<link rel="stylesheet" href="/css/reponsive/headerReponsive.css">
+
+
+<!-- SECTION: HEADER -->
+<div class="open-flex header fontSize-12px box-shadow-normal container borderRadius-10px text-uppercase">
+    <!-- Header: logo -->
+    <div class="logo" href="#">
+        <a href="#">
+            <img src="/image/logo/avatar.jpg" alt="">
+        </a>
+    </div>
+    <!-- Header: search-bar -->
+    <div class="search">
+        <!-- <span class="search-icon">🔍</span> -->
+        <input type="text" placeholder="Tìm kiếm trên Facebook"  class="search-input">
+    </div>
+    <div class="search-mobile search">
+        <span class="search-icon">🔍</span>
+        <!-- <input type="text" placeholder="Tìm kiếm trên Facebook"  class="search-input"> -->
+    </div>
+    <!-- Header: navigation -->
+    <ul class="navigation flex-item-right">
+        <li><a href="#">Cửa hàng</a></li>
+        <li><a href="#">Về website</a></li>
+        <li><a href="#">Bạn bè</a></li>
+    </ul>
+    <ul class="navigation-mobile flex-item-right my-0">
+        <i class="fa-solid fa-bars">
+            <ul class="sub-navigation-mobile px-0 fontSize-12px" style="font-family: var(--font-family)">
+                <li><a href="">Cửa hàng</a></li>
+                <li><a href="">Về website</a></li>
+                <li><a href="">Bạn bè</a></li>
+            </ul>
+        </i>
+    </ul>
+    <!-- Header: authority -->
+    <ul class="authority">
+        <li style="display: none;" class="register logout borderRadius-100px logout-btn">Đăng xuất</li>
+        <li class="login borderRadius-100px"><a href="/login">Đăng nhập</a></li>
+    </ul>
+    {{!-- Header: account --}}
+    <div class="account">
+        <input type="checkbox" id="toggle-user-menu" hidden>
+        <label class="avatar" for="toggle-user-menu" style="display: inline;">
+            <img src="/image/logo/avatar.jpg" alt="">
+        </label>  
+        <div class="user-menu">
+            <a href="/setting/account">Cài đặt</a>
+        </div>
+    </div>
+    <!-- Header: toggle -->
+    <div class="toggle">
+        <i class="fa-solid fa-caret-up"></i>
+    </div>
+</div>
+
+{{!-- Header: message --}}
+{{>message}}
+        
+<script src="/js/header.js"></script>
+<script type="module" src="/src/controller/userDataController.js"></script>

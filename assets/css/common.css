@@ -1,0 +1,181 @@
+/* Reset CSS */
+
+@font-face{
+    font-family: Inter-Bold;
+    src: url(/font/text/Inter-Bold.otf);
+}
+
+:root{
+    --font-family: Inter-Bold, Lexend-Medium, sans-serif;
+}
+
+.open-block{
+    display: block !important;
+}
+
+.open-flex{
+    display: flex !important;
+}
+
+/* COMMON */
+.dashed-line {
+    border-top: 1px dashed #000; /* Đường đứt với độ dày 1px và màu đen */
+    width: 100%; /* Đảm bảo đường đứt chiếm toàn bộ chiều rộng của phần tử cha */
+    margin: 20px 0; /* Để cách đường đứt một khoảng 20px ở trên và dưới */
+}
+
+.fa-padding-left-5px{
+    padding-left: 5px;
+}
+
+.flex-item-right{
+    margin-left: auto;
+}
+
+.z-index-10{
+    z-index: 10;
+}
+
+.z-index-20{
+    z-index: 20;
+}
+
+.fontSize-14px{
+    font-size: 14px;
+}
+
+.fontSize-12px{
+    font-size: 12px;
+}
+
+.fontSize-13px{
+    font-size: 13px;
+}
+
+.fontSize-16px{
+    font-size: 16px;
+}
+
+.fontSize-32px{
+    font-size: 32px;
+}
+
+.fontSize-64px{
+    font-size: 64px;
+}
+
+.borderRadius-10px{
+    border-radius: 10px;
+}
+
+.borderRadius-100px{
+    border-radius: 100px;
+}
+
+.box-shadow-normal{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.with-720px{
+    width: 720px;
+}
+
+.text-uppercase{
+    text-transform: uppercase;
+}
+
+/* CUSTOM BOOTSTRAP */
+.custom-col-20percent{
+    width: 30% !important; /* Đảm bảo không vượt quá 20*/
+   /* Luôn chiếm 20% */
+}
+
+
+/* COLOR - UI (MAYBE CHANGE)*/
+:root{
+    --white-UIColor: #fff;
+}
+
+:root{
+    --mainColor-UIColor: #AFB42B;
+}
+
+:root{
+    --mainDarkColor-UIColor:rgb(126, 130, 23);
+}
+
+:root{
+    --skillSection-lightBlack-UIColor: #f4f5f7;
+}
+
+/* COLOR - TEXT (MAYBE CHANGE)*/
+
+
+:root{
+    --mainBlack-textColor: #00283A;
+}
+
+:root{
+    --mainColor-textColor: #AFB42B;
+}
+
+:root{
+    --white-textColor: #fff;
+}
+
+:root{
+    --lightBlack-textColor: #7B7B7D;
+}
+
+
+/* -------------- */
+
+/* COLOR - UI (ABSOLUTELY UNCHANGED)*/
+:root{
+    --unchanged-white-UIColor: #fff;
+}
+
+:root{
+    --unchanged-mainColor-UIColor: #AFB42B;
+}
+
+/* COLOR - TEXT (ABSOLUTELY UNCHANGED)*/
+:root{
+    --unchanged-mainBlack-textColor: #00283A;
+}
+
+
+:root{
+    --unchanged-lightBlack-textColor: #7B7B7D;
+}
+
+:root{
+    --unchanged-mainColor-textColor: #AFB42B;
+}
+
+:root{
+    --unchanged-white-textColor: #fff;
+}
+/* START */
+*{
+    list-style: none;
+    padding: 0 ;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    /* height: 3000px; */
+    background-color: #F4F5F7;
+    font-family: var(--font-family) !important;
+    font-size: 16px !important;
+    color: var(--unchanged-mainBlack-textColor);   
+    scroll-behavior: smooth;
+}
+
+.box{
+    background-color: red;
+    width: 300px;
+    height: 300px;
+}

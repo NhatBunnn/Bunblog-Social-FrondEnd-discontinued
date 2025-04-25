@@ -1,0 +1,101 @@
+<link rel="stylesheet" href="/css/home.css">
+<link rel="stylesheet" href="/css/reponsive/homeReponsive.css">
+<!-- SECTION: SLIDER -->
+<div class="slider container-flud">
+    <div class="banner">
+        <div class="slider-content container">
+            <div class="row gx-5 align-items-center">
+                <div class="col-md">
+                    <div class="small-title" style="margin-bottom: 8px;">
+                        TRẢI NGHIỆM VIẾT BLOG
+                    </div>
+                    <div class="main-title fontSize-32px" style="font-size: 40px">
+                        Một hành trình mới đang 
+                        <br>
+                        Bạn còn chần 
+                    </div>
+                    <div class="expose-btn button borderRadius-10px ">
+                        Khám phá ngay 
+                    </div>
+                </div>
+                <div class="col-md-1"></div>
+                <div class="col-md">
+                    <div class="video-container align-items-center">
+                        <iframe src="https://www.youtube.com/embed/2--IQvqifvY"
+                        frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"allowfullscreen>
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="explore-btn">
+            <div class="button borderRadius-10px ">
+                Khám phá ngay 
+            </div>
+        </div>
+    </div>
+</div>
+
+{{!-- SECTION: CREATE-PAGE-MODEL --}}
+<div class="create-page-model align-items-center justify-content-center">
+    <div class="create-page-container">
+        <div class=" close-btn">
+            <i class="fa-solid fa-xmark" style="display: block;"></i>
+        </div>
+        <p>Tạo page của bạn</p>
+        <form action="" class="create-page-form" id="create-page-form">
+            <div id="vainity-url">
+                <label for="page-name">Tên page url của bạn (bunblog.site/...)</label>
+                <input type="text" id="page-name" class="form-control" placeholder="Nhập tên page của bạn">
+            </div>
+            <button type="submit" class="btn btn-primary">Tạo page</button>
+        </form>
+    </div>
+</div>
+
+<!-- SECTION: List-Users -->
+<div class="list-users container">
+    <div class="list-users-head">
+        <h2>Danh sách người dùng nổi bật</h2>
+    </div>
+    <ul class="list-users-card" id="list-users-card">
+        <li class="user-card d-flex borderRadius-10px align-items-center">
+            <img src="/image/logo/avatar.jpg" alt="" class="avatar">
+            <div class="info">
+                <div class="author">
+                    Nhật Bủn
+                </div>
+                <div class="sub-info">
+                    <div class="subscribe">
+                        1000 người theo dõi
+                    </div>
+                    <div class="status">
+                        Online
+                    </div>
+                </div>
+            </div>
+            <div class="status-message mx-auto d-flex align-items-center">
+                <span>💬</span>
+                <div class="">Bruh bruh lmao...</div>
+            </div>
+            <div class="explore-btn">
+                <div class="btn btn-success borderRadius-10px">
+                    Khám phá ngay 
+                </div>
+            </div>
+            <div class="texting-btn" id="texting-btn">
+                <button class="btn btn-primary">Nhắn tin</button>    
+            </div>
+        </li>
+    </ul>
+</div>
+
+        <div class="main-content">
+            <div id="current-user">ahihih</div>
+        </div>
+
+<script type="module" src="/js/home.js"></script>
+<script type="module" src="/src/controller/userPageController.js"></script>
+<script type="module" src="/src/controller/mainController.js"></script>
+<script type="module" src="/src/controller/messageController.js"></script>
+<script type="module" src="/src/controller/authController.js"></script>

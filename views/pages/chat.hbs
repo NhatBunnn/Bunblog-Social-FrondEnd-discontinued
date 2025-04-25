@@ -1,0 +1,38 @@
+
+<div>
+    <style>
+        #chat-box {
+            height: 190px;
+            overflow-y: scroll;
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        #message {
+            width: 100%;
+            padding: 10px;
+        }
+        #receiver {
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+        }
+    </style>
+    <h1>Bủn Messeger</h1>
+
+    <div id="chat-box"></div>
+
+    <div>
+    <form id="sendMessage-form">
+        <input type="text" class="receiver" placeholder="Enter receiver username" />
+        <input type="text" class="receiver" placeholder="Enter receiver username" />
+        <input type="text" id="message" placeholder="Type your message" />
+        <button type="submit">Send Message</button>
+    </form>
+    </div>
+    {{!-- <script type="module" src="/src/controller/messageController.js"></script> --}}
+    
+</div>
+
+
+

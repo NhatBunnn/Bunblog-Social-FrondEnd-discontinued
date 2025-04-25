@@ -1,0 +1,66 @@
+
+
+/* Extra Small - <576px */
+@media only screen and (max-width: 575px) {
+ 
+
+}
+
+@media (min-width: 576px) { 
+    
+}
+
+/* Small - ≥576px và <768px */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+ 
+
+}
+
+@media (min-width: 768px) { 
+    
+}
+
+@media (max-width: 768px){
+   
+}
+
+@media (max-width: 768px){
+    
+}
+
+/* Medium - ≥768px và <992px */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+   
+}
+
+
+@media (min-width: 991px) { 
+   
+}
+
+/* Large - ≥992px và <1200px */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+   
+
+}
+
+
+@media (min-width: 1200px) { 
+   
+}
+
+@media (max-width: 1200px){
+ 
+    
+    
+}
+
+/* Đoạn code cho các kích thước giữa 1200px và 1400px */
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+    
+}
+
+
+@media only screen and (min-width: 1400px){
+
+}

@@ -1,0 +1,167 @@
+<link rel="stylesheet" href="/css/userpage.css">
+<link rel="stylesheet" href="/css/reponsive/userpageResponsive.css">
+
+<div id="userPage-data" data-username="{{username}}"></div>
+
+<div>
+    <!-- SECTION: SLIDER -->
+    <div class="slider container-flud px-xxl-5 ">
+        <div class="banner box-shadow-normal">
+            <div class="text-content">
+                <div class="small-title">
+                    Chào bạn của tôi!
+                </div>
+                <div class="main-title">
+                    Khám phá trang
+                    <br>
+                    blog của tôi
+                </div>
+                <div class="video-introduction borderRadius-100px">
+                    Video giới thiệu
+                    <i class="fa-solid fa-play fa-padding-left-5px"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- SECTION: PROFILE & POST -->
+    <div class="profile-and-post container-flud">
+        <div class="row">
+            <!-- SECTION: PROFILE INFO -->
+            <div class="col-md-4 ">
+                <div class="sticky-profileInfo">
+                    <div class="profile-info">
+                         <div class="profile-info-container borderRadius-10px  box-shadow-normal">
+                             <div class="avatar">
+                                 <img src="https://images.steamusercontent.com/ugc/2490007695622445219/CBD7B971729A3063C25DF33A681A6C521443EDB7/?imw=637&imh=358&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true" alt="" class="avatar">
+                             </div>    
+                             <div class="name">{{username}}</div>
+                             <div class="biography fontSize-12px">KO BIẾT NÓI GÌ:D</div>
+                             <div class="dashed-line"></div>
+                             <ul class="social">
+                                 <li><a href="">
+                                     <i class="fa-brands fa-youtube"></i>
+                                 </a></li>
+                                 <li><a href="">
+                                     <i class="fa-brands fa-facebook"></i>
+                                 </a></li>
+                                 <li><a href="">
+                                     <i class="fa-brands fa-tiktok"></i>
+                                 </a></li>
+                                 <li><a href="">
+                                     <i class="fa-brands fa-instagram"></i>
+                                 </a></li>
+                             </ul>
+                             <div class="dashed-line"></div>
+                             <ul class="information">
+                                 <li>
+                                     <div>Nơi ở: </div>
+                                     <div>Nình Bình</div>
+                                 </li>
+                                 <li>
+                                     <div>Tuổi: </div>
+                                     <div>19</div>
+                                 </li>
+                                 <li>
+                                     <div>Trường: </div>
+                                     <div>CN Đông Á</div>
+                                 </li>
+                             </ul>
+                             <div class="dashed-line"></div>
+                             <div class="contact">
+                                 Liên hệ tôi 
+                                 <i class="fa-regular fa-envelope"></i>
+                             </div>
+                         </div>
+                    </div>
+                </div>
+            </div>
+            <!-- SECTION: POST -->
+            <div class="col-md-8">
+                <!-- <div class="dashed-line"></div> -->
+                <div class="post borderRadius-10px  box-shadow-normal">
+                    <div class="post-container">
+                        {{!-- Post: head --}}
+                        <div class="head">
+                            <img src="https://images.steamusercontent.com/ugc/2490007695622445219/CBD7B971729A3063C25DF33A681A6C521443EDB7/?imw=637&imh=358&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true" alt="" class="avatar">
+                            <div class="info">
+                                <div class="author">
+                                    Nhật Bủn
+                                </div>
+                                <div class="time">
+                                    Ngày 9 tháng 4 lúc 19:32
+                                </div>
+                            </div>
+                            <i class="option fa-solid flex-item-right fa-ellipsis"></i>
+                        </div>
+                        {{!-- Post: content --}}
+                        <div class="content">
+                            Cần bán bộ PC đang sử dụng bình thường
+                        </div>
+                        {{!-- Post: media --}}
+                        <div class="media borderRadius-10px">
+                            <img src="https://img.freepik.com/free-photo/anime-night-sky-illustration_23-2151684328.jpg" alt="">
+                        </div>
+                        {{!-- Post: stats --}}
+                        <div class="stats d-flex justify-content-center">
+                            <div class="like d-flex justify-content-center">
+                                <i class="fa-solid fa-thumbs-up"></i>
+                                <div class="number">120</div>
+                            </div>
+                            <div class="comment d-flex justify-content-center flex-item-right ">
+                                <div class="number">34</div>
+                                bình luận
+                            </div>
+                            <div class="share d-flex justify-content-center">
+                                <div class="number">23</div>
+                                chia sẻ
+                            </div>
+                        </div>
+                        {{!-- Post: action --}}
+                        <div class="action d-flex ">
+                            <div class="like d-flex justify-content-center">
+                                <i class="fa-solid fa-thumbs-up"></i>
+                            </div>
+                            <div class="comment d-flex justify-content-center">
+                                <i class="fa-solid fa-comment"></i>
+                            </div>
+                            <div class="share d-flex justify-content-center">
+                                <i class="fa-solid fa-share"></i>
+                            </div>
+                        </div>
+                        {{!-- Post: conmment --}}
+                        <div class="comment">
+                            <div class="item d-flex">
+                                <img class="layout-left" src="https://images.steamusercontent.com/ugc/2490007695622445219/CBD7B971729A3063C25DF33A681A6C521443EDB7/?imw=637&imh=358&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true" alt="" class="avatar">
+                                <div class="layout-right" style="width: 100%;">
+                                    <div class="content borderRadius-10px">
+                                        <div class="name">Min-jeong</div>
+                                        <div class="comment-content">Hello</div>
+                                    </div>
+                                    <div class="footer d-flex">
+                                        <div class="time fontSize-14p">Ngày 9 tháng 4 lúc 19:32</div>
+                                        <div class="option d-flex">
+                                            <div class="like">Thích</div>
+                                            <div class="reponse">Phản hồi</div>
+                                        </div>
+                                        <div class="stats d-flex flex-item-right">
+                                            <div class="number ">753</div>
+                                            <i class="fa-solid fa-thumbs-up"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        {{!-- Post: comment-input --}}
+                        <div class="comment-input d-flex">
+                            <img src="https://images.steamusercontent.com/ugc/2490007695622445219/CBD7B971729A3063C25DF33A681A6C521443EDB7/?imw=637&imh=358&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true" alt="" class="avatar">
+                            <form action="" style="width: 100%;">
+                                <input type="text">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="module" src="/src/controller/userPageController.js"></script>

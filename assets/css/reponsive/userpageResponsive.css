@@ -1,0 +1,105 @@
+
+
+/* Extra Small - <576px */
+@media only screen and (max-width: 575px) {
+     /* SECTION: PROFILE & CONTENT */
+    .profile-and-post{
+        margin: 0 9% 0 9%;
+    }
+
+}
+
+@media (min-width: 576px) { 
+    
+}
+
+/* Small - ≥576px và <768px */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+    /* SECTION: PROFILE & CONTENT */
+    
+
+}
+
+@media (min-width: 768px) { 
+    
+}
+
+@media (max-width: 768px){
+
+}
+
+@media (max-width: 768px){
+    /* SECTION: SLIDER */
+    .slider .banner{
+        padding-bottom: 361px !important;
+    }
+
+    .slider .small-title{
+        font-size: 12px;
+    }
+    
+    .slider .main-title{
+        font-size: 32px;
+    }
+    
+    .slider .video-introduction{
+        font-size: 12px;
+        line-height: 20px !important;
+    }
+
+    .slider .text-content{
+        transform: translateY(100%);
+    }
+}
+
+/* Medium - ≥768px và <992px */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+    /* SECTION: PROFILE & CONTENT */
+    .profile-and-post{
+        margin: 0 2% 0 2%;
+    }
+}
+
+
+@media (min-width: 991px) { 
+    /* SECTION: SLIDER */
+    .slider {
+        margin: 0 40px 0 40px;
+    }
+}
+
+/* Large - ≥992px và <1200px */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+    
+    /* SECTION: PROFILE & CONTENT */
+    .profile-and-post{
+        margin: 0 5% 0 5%;
+    }
+
+}
+
+
+@media (min-width: 1200px) { 
+   
+}
+
+@media (max-width: 1200px){
+ 
+    
+}
+
+/* Đoạn code cho các kích thước giữa 1200px và 1400px */
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+    /* SECTION: PROFILE & CONTENT */
+    .profile-and-post{
+        margin: 0 11% 0 11%;
+    }
+}
+
+
+@media only screen and (min-width: 1400px){
+
+}

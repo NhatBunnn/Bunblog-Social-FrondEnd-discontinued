@@ -1,0 +1,61 @@
+
+
+/* SECTION: MESSSAGE */
+
+.message {
+    bottom: -16px;
+    right: 25px;
+    position: fixed;
+    z-index: 10;
+}
+
+.message .message-box{
+    z-index: 10;
+    width: 338px;
+}
+
+/* header */
+.message .message-header{
+    background-color: rebeccapurple;
+}
+
+.message .message-header img{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+/* info */
+.message .message-info{
+    align-items: center;   
+}
+/* messsage-area */
+.message .message-area{
+    height: 300px;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    scrollbar-color: #888 #f1f1f1;
+    background-color: #fff;
+}
+
+.message .message-content{
+    display: inline-block;
+}   
+
+.message .message-content img{
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+}
+.message .message-text{
+    background-color: aqua;
+    padding-bottom: 0px;
+}
+
+.message{
+    
+}
+
+.message{
+    
+}

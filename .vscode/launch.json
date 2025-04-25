@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Debug với Nodemon",
+        "type": "pwa-node",
+        "request": "launch",
+        "runtimeExecutable": "npx",
+        "runtimeArgs": ["nodemon", "--inspect", "index.js"],
+        "restart": true,
+        "console": "integratedTerminal",
+        "internalConsoleOptions": "neverOpen",
+        "skipFiles": ["<node_internals>/**"]
+      }
+    ]
+  }
+  

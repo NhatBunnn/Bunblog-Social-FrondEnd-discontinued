@@ -1,0 +1,102 @@
+
+
+/* Extra Small - <576px */
+@media only screen and (max-width: 575px) {
+    /* SECTION: HEADER */
+    .header .navigation{
+        display: none;
+     }
+}
+
+@media (min-width: 576px) { 
+    
+}
+
+/* Small - ≥576px và <768px */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    /* SECTION: HEADER */
+    .header .navigation{
+        display: none;
+    }
+
+    
+
+}
+
+@media (min-width: 768px) { 
+    
+}
+
+@media (max-width: 768px){
+    /* SECTION: HEADER */
+    .header{
+        width: 95%;
+    }
+}
+
+@media (max-width: 768px){
+   
+}
+
+/* Medium - ≥768px và <992px */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    /* SECTION: HEADER */
+    .header .navigation{
+       display: none;
+    }
+   
+}
+
+
+@media (min-width: 991px) { 
+  
+}
+
+/* Large - ≥992px và <1200px */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    /* SECTION: HEADER */
+    .header .navigation{
+      display: none;
+    }
+ 
+
+}
+
+
+@media (min-width: 1200px) { 
+   
+}
+
+@media (max-width: 1200px){
+    /* SECTION: HEADER */
+    .header .navigation-mobile{
+        display: flex !important;
+    }
+    
+    .header .search{
+        display: none;
+    }
+
+    .header .search-mobile{
+        display: block;
+    }
+
+    .header .authority .register{
+        display: none;
+    }
+    
+    .header .authority{
+        padding-left: 10px;
+    }
+    
+}
+
+/* Đoạn code cho các kích thước giữa 1200px và 1400px */
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+  
+}
+
+
+@media only screen and (min-width: 1400px){
+
+}

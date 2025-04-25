@@ -1,0 +1,206 @@
+
+/* START */
+*{
+    list-style: none;
+    padding: 0 ;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    /* height: 3000px; */
+    background-color: #f4f5f7ca !important;
+    font-family: var(--font-family) !important;
+    font-size: 15px !important;
+    color: var(--unchanged-mainBlack-textColor);   
+    scroll-behavior: smooth;
+}
+
+/* SECTION: HEADER */
+
+
+
+/* SECTION: SLIDER */
+.slider {
+    /* margin: 0 40px 0 40px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider .banner{
+    background-color: #AFB42B;
+    width: 100%;
+    padding-bottom: 480px;
+    display: flex;
+    justify-content: center;
+    border-radius: 0 0 20px 20px;
+    background-image: url(https://preview.redd.it/3840x2160-japanese-city-at-night-v0-uno3xcgnnok91.jpg?auto=webp&s=7b0a476d7929425c5f0c42e786a2710d2731dd41);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.slider .text-content{
+    transform: translateY(50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    text-align: center;
+    color: var(--unchanged-white-textColor);
+}
+
+.slider .small-title{
+    font-size: 12px;
+}
+
+.slider .main-title{
+    font-size: 64px;
+}
+
+.slider .video-introduction{
+    font-size: 12px;
+    line-height: 40px;
+    padding: 0 20px 0 20px;
+    outline: 1px solid var(--unchanged-white-UIColor);
+}
+/* SECTION: PROFILE & POST */
+.profile-and-post{
+    margin: 0 17% 0 17%;
+}
+
+/* SECTION: PROFILE INFO */
+.sticky-profileInfo {
+    margin-top: -50px;
+    position: sticky;  /* Đặt thành sticky để phần tử dính vào khi cuộn */
+    top: 100px;  /* Ghim phần tử từ trên cùng của màn hình */
+    z-index: 10;  /* Đảm bảo nó hiển thị trên các phần tử khác */
+    
+}
+
+.profile-info{
+    top: 411px;
+    width: 100%;
+}
+
+.profile-info .profile-info-container{
+    padding-bottom: 100px;
+    background-color: red;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--unchanged-white-UIColor);
+}
+
+.profile-info .avatar{
+    border-radius: 50%;
+    width: 107px;
+    height: 107px;
+    object-fit: cover;
+    outline: 4px solid var(--white-UIColor);
+    margin-bottom: 25px;
+}
+
+.profile-info .social{
+    display: flex;
+    padding-left: 0;
+    margin-bottom: 0;
+} 
+
+.profile-info .social li{
+    padding: 20px 10px;
+}
+
+.profile-info .information{
+    padding-left: 0;
+    width: 100%;
+}
+
+.profile-info .information li{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* SECTION: POST */
+.post{
+    padding: 12px;
+    background-color: var(--white-UIColor);
+}
+
+/* Post: head */
+
+.post .head{
+    display: flex;
+    align-items: center;
+}
+
+.post .head .avatar{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+
+
+.post .head .info div:first-child{
+   
+}
+
+.post .head .info div:last-child{
+    font-size: 13px;
+    color: var(--lightBlack-textColor);
+    font-weight: 400;
+}
+
+/* Post: content */
+.post .content{
+    
+}
+
+/* Post: media */
+
+.post .media img{
+    width: 100%;
+}
+
+.post .media{
+
+}
+/* Post: */
+
+.post .stats{
+}
+
+.post .action {
+    border-top: 1px solid #000;
+    width: 100%;
+    justify-content: space-around;
+}
+
+
+.post .comment .avatar{
+
+}
+
+.post .comment img {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+
+.post .comment .content {
+    background-color: hsl(0, 0%, 79%);
+    display: inline-block;
+    padding: 8px 12px;
+}
+
+.post .comment-input img{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}

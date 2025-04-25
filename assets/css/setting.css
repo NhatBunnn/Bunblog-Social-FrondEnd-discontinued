@@ -1,0 +1,22 @@
+.setting{
+    margin: 0 17% 0 17%;
+}
+
+/* Sidebar */
+
+.setting .sidebar{
+    background-color: var(--mainColor-UIColor);
+    
+}
+
+.setting .sidebar .nav{
+    border-top: 1px solid #96A6B4;
+
+}
+
+/* Content */
+
+.setting .content{
+    
+    border-left: 1px solid #96A6B4;
+}
